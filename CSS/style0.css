@@ -1,0 +1,69 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(30,30,30);
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5vw;
+    line-height: 5vw;
+    z-index: 99999;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width:100%;
+  justify-content:center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left:20px;
+  padding-right:20px;
+  font-size:2.5vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size:3vw;
+  color:white;
+}
+
+li .hover:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+li .active {
+	background-color:blue;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5vw;
+  	color:white;
+}
+
+.logo {
+  display:flex;
+  justify-content:center;
+  align-self:auto;
+  font-family: 'Big Lou', sans-serif;
+}
+
+.logo div {
+  text-align:center;
+}
