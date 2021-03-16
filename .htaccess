@@ -1,0 +1,17 @@
+## Error pages
+# Bad request
+ErrorDocument 400 /errors/400.html
+# Insufficient permissions
+ErrorDocument 403 /errors/403.html
+# Not found
+ErrorDocument 404 /errors/404.html
+# Server error
+ErrorDocument 500 /errors/500.html
+# Too many requests
+ErrorDocument 503 /errors/503.html
+# Time-Out
+ErrorDocument 504 /errors/504.html
+
+## Security
+Order deny,allow
+Deny from all
