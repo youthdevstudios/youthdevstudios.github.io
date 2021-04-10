@@ -6,7 +6,6 @@ body {
 header {
         background-color: rgb(20,20,20);
     display: flex;
-	justify-content: right;
     position: fixed;
     top: 0;
     left: 0;
