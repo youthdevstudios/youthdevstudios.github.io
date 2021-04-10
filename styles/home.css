@@ -16,6 +16,7 @@ header {
 }
 
 ul {
+	float: right;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,7 +26,7 @@ ul {
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
