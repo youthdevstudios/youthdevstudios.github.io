@@ -4,6 +4,7 @@ body {
 }
 
 header {
+   background-color: rgb(20,20,20);
     display: flex;
     position: fixed;
     top: 0;
