@@ -40,8 +40,11 @@ li a {
 }
 
 p {
+	width: 10em;
+	margin: auto;
 	font-size:3vw;
   color:white;
+	
 }
 
 li .hover:hover {
