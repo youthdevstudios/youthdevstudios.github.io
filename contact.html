@@ -19,8 +19,23 @@
                         </nav>
                 </header>
 	        <br />
+		<form>
+			<label for="useremail">Email*</label>
+                        <input id="useremail" type="email" name="user-email" placeholder="example@example.com">
+			<label for="messagetype">What would you like help with?</label>
+			<select id="messagetype" name="message-type">
+				<option value="general">General question</option>
+				<option value="bug">Bug report</option>
+				<option value="refund">Refund request</option>
+				<option value="inquiry">Business inquiry</option>
+			</select>
+			<label for="subject">Subject</label>
+			<input id="subject" type="text" name="message-subject" size="50">
+			<label for="message">Message</label>
+		        <textarea id="message" name="custom-message" rows="7">Example...</textarea>
+			<button type="submit" onclick="sendMessage()">Submit</button>
+		</form>
 	        <h1 style="text-align:center;padding-top:10vh">Click on the icons below to be redirected to our social media or send an email to us for most forms of business inquiries.</h1>
-	        <div class="center">
 	        <footer>
 		        <div class="center">
 			        <ul>
@@ -30,5 +45,21 @@
 			        </ul>
 		        </div>
 	        </footer>
+                <script>
+                        function sendMessage() {
+                                var request = new XMLHttpRequest();
+				request.open("POST","https://discord.com/api/webhooks/830564104359247908/LW7kI7LnuXfzku3d2sZPAC2esxEpc0h3L1gMWN7JQHG5yG2qggXCL1Wfa_jDBzI8KeXZ");
+				
+				request.setRequestHeader("Content-type", "application/json");
+				
+				var params = {
+                                        username: "",
+					avatar_url: "",
+					content: "form data goes here"
+				}
+				
+				request.send(JSON.stringify(params));
+			}
+                </script>
         </body>
 </html>
