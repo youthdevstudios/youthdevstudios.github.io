@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  background-color: rgb(20,20,20);
     display: flex;
     position: fixed;
     top: 0;
@@ -16,7 +17,7 @@ header {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0;l
   padding: 0;
   overflow: hidden;
   width:100%;
