@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="styles/contact.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<noscript>
 			<h1>We require you to enable JavaScript to allow our website to properly function.</h1>
 		</noscript>
@@ -24,20 +25,20 @@
 	        <br />
 		<h1>Please fill out the below form to contact us.</h1>
 		<form>
-			<label for="useremail">Email*</label>
-                        <input id="useremail" type="email" name="user-email" placeholder="example@example.com" required>
+			<label for="discord">Discord Username and Tag*</label>
+                        <input id="discord" type="text" name="discord-user" placeholder="User#1234">
 			<label for="messagetype">What would you like help with?</label>
 			<select id="messagetype" name="message-type" required>
+				<option value="select">Please select an option
 				<option value="general">General question</option>
 				<option value="bug">Bug report</option>
-				<option value="refund">Refund request</option>
 				<option value="inquiry">Business inquiry</option>
 			</select>
 			<label for="subject">Subject</label>
 			<input id="subject" type="text" name="message-subject" placeholder="Krabby Patty order" size="50" required>
 			<label for="message">Message</label>
 		        <textarea id="message" name="custom-message" placeholder="I'll take a double triple bossy deluxe on a raft, 4x4 animal style, extra shingles with a shimmy and a squeeze, light axle grease, make it cry, burn it, and let it swim." rows="7" required></textarea>
-			<button type="submit" onclick="sendMessage()">Submit</button>
+			<button type="submit">Submit</button>
 		</form>
 	        <footer>
 		        <div class="center">
@@ -49,16 +50,21 @@
 		        </div>
 	        </footer>
                 <script>
-                        function sendMessage() {
+                        $('form').submit(function(submitted) {
+				// Prevent default form submission
+				e.preventDefault();
+				
+				// Convert form data to GET format
+				var formData = $(this).serialize();
+				
                                 var request = new XMLHttpRequest();
 				request.open("POST","https://discord.com/api/webhooks/830564104359247908/LW7kI7LnuXfzku3d2sZPAC2esxEpc0h3L1gMWN7JQHG5yG2qggXCL1Wfa_jDBzI8KeXZ");
-				
 				request.setRequestHeader("Content-type", "application/json");
 				
-				var params = {
+				var message = {
                                         username: "",
 					avatar_url: "",
-					content: "form data goes here"
+					content: formData
 				}
 				
 				request.send(JSON.stringify(params));
