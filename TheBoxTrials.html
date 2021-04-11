@@ -2,10 +2,10 @@
 <html>
         <head>
                 <title>The Box Trials - YD Studios</title>
-                <link href="icon.png" rel="icon">
-                <link href="styles/product.css" rel="stylesheet">
-                <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+                <link rel="icon" href="icon.png">
+                <link rel="stylesheet" href="styles/product.css">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
         </head>
         <body>
                 <header>
@@ -27,56 +27,52 @@
                         <img src="./images/TBT2.png" style="width:100%">
                 </div>
 
-        <div class="mySlides fade">
-          <img src="./images/TBT3.png" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-          <img src="./images/TBT4.png" style="width:100%">
-        </div>
+        	<div class="mySlides fade">
+          		<img src="./images/TBT3.png" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+		  	<img src="./images/TBT4.png" style="width:100%">
+		</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align:center">
+		  	<span class="dot" onclick="currentSlide(1)"></span>
+		  	<span class="dot" onclick="currentSlide(2)"></span>
+		  	<span class="dot" onclick="currentSlide(3)"></span>
+		  	<span class="dot" onclick="currentSlide(4)"></span>
+		</div>
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
 
-        </div>
-        <br>
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
 
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
-
-        <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-        <div style="text-align:center;margin-top:10vw;">
-          <a href="https://github.com/Notebooked/notebooked.github.io/releases/download/v1.0B/The.Box.Trials.V1.0B.exe" style="text-decoration:none;font-size:4vw;padding:2vw;border-radius:25px;background-color:white;">Windows</a>
-        </div>
-    </body>
+			function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";
+				  dots[slideIndex-1].className += " active";
+			}
+		</script>
+        	<div style="text-align:center;margin-top:10vw;">
+          		<a href="https://github.com/Notebooked/notebooked.github.io/releases/download/v1.0B/The.Box.Trials.V1.0B.exe" style="text-decoration:none;font-size:4vw;padding:2vw;border-radius:25px;background-color:white;">Windows</a>
+        	</div>
+    	</body>
 </html>
