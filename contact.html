@@ -22,18 +22,18 @@
 		<h1>Please fill out the below form to contact us.</h1>
 		<form>
 			<label for="useremail">Email*</label>
-                        <input id="useremail" type="email" name="user-email" placeholder="example@example.com">
+                        <input id="useremail" type="email" name="user-email" placeholder="example@example.com" required>
 			<label for="messagetype">What would you like help with?</label>
-			<select id="messagetype" name="message-type">
+			<select id="messagetype" name="message-type" required>
 				<option value="general">General question</option>
 				<option value="bug">Bug report</option>
 				<option value="refund">Refund request</option>
 				<option value="inquiry">Business inquiry</option>
 			</select>
 			<label for="subject">Subject</label>
-			<input id="subject" type="text" name="message-subject" placeholder="Krabby Patty order" size="50">
+			<input id="subject" type="text" name="message-subject" placeholder="Krabby Patty order" size="50" required>
 			<label for="message">Message</label>
-		        <textarea id="message" name="custom-message" placeholder="I'll take a double triple bossy deluxe on a raft, 4x4 animal style, extra shingles with a shimmy and a squeeze, light axle grease, make it cry, burn it, and let it swim." rows="7">
+		        <textarea id="message" name="custom-message" placeholder="I'll take a double triple bossy deluxe on a raft, 4x4 animal style, extra shingles with a shimmy and a squeeze, light axle grease, make it cry, burn it, and let it swim." rows="7" required>
 			<button type="submit" onclick="sendMessage()">Submit</button>
 		</form>
 	        <footer>
