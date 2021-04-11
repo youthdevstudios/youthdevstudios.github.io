@@ -20,8 +20,8 @@ header ul {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        width:100%;
-        justify-content:center;
+        width: 100%;
+        justify-content: center;
 }
 
 header li {
@@ -33,9 +33,9 @@ header li a {
         color: white;
         text-align: center;
         text-decoration: none;
-        padding-left:20px;
-        padding-right:20px;
-        font-size:2.5vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2.5vw;
         font-family: 'Roboto', sans-serif;
 }
 
@@ -44,11 +44,11 @@ li .hover:hover {
 }
 
 li .active {
-	background-color:blue;
+	background-color: blue;
 }
 
 a img {
-	margin-top:300px;
+	margin-top: 300px;
 }
 
 a img:hover {
@@ -56,23 +56,23 @@ a img:hover {
 }
 
 .center {
-	display:flex;
-	justify-content:center;
-        text-align:center;
+	display: flex;
+	justify-content: center;
+        text-align: center;
 }
 
 .center ul {
-        list-style-type:none;
+        list-style-type: none;
 }
 
 .center li {
-        float:left;
+        float: left;
 }
 
 h1 {
         text-align: center;
         font-size: 3vw;
-        color:white;
+        color: white;
 }
 
 form {
