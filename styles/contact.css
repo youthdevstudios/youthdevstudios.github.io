@@ -55,27 +55,32 @@ a img:hover {
 	cursor: pointer;
 }
 
+.title {
+  margin:7vw;
+  text-align: center;
+  font-size: 3.7vw;
+  color:white;
+}
+
+footer {
+  display:block;
+  text-align:center;
+}
+
 .center {
-	display:flex;
-	justify-content:center;
-        text-align:center;
+  display:block;
+  ;
 }
 
 .center ul {
-        list-style-type:none;
+  list-style-type:none;
 }
 
 .center li {
-        float:left;
-}
-
-h1 {
-        text-align: center;
-        font-size: 3vw;
-        color:white;
+  float:left;
 }
 
 form {
-        float: left;
+  float: left;
 	color: white;
 }
