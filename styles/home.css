@@ -59,14 +59,3 @@ h1 {
 	font-size: 5vw;
   	color:white;
 }
-
-.logo {
-  display:flex;
-  justify-content:center;
-  align-self:auto;
-  font-family: 'Big Lou', sans-serif;
-}
-
-.logo div {
-  text-align:center;
-}
