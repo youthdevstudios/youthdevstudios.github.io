@@ -1,5 +1,4 @@
 body {
-	font-family: 'Poppins', sans-serif;
 	background-color: rgb(30,30,30);
 	width: 90%;
 	margin: auto;
@@ -7,12 +6,12 @@ body {
 
 header {
         background-color: rgb(20,20,20);
+	height: 5vw;
 	display: flex;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 5vw;
 	line-height: 5vw;
 	z-index: 99999;
 }
@@ -38,7 +37,8 @@ li a {
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 2.5vw;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300; // light
 }
 
 li .hover:hover {
@@ -50,11 +50,14 @@ li .active {
 }
 
 p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400; // normal
 	font-size: 3vw;
 	color: white;
 }
 
 h1 {
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	font-size: 5vw;
   	color: white;
