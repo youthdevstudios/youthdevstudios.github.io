@@ -33,7 +33,7 @@
 				<option value="inquiry">Business inquiry</option>
 			</select>
 			<label for="discord">Discord Username and Tag (must be in our server, required for a response)</label>
-			<input id="discord" type="text" name="discord-user" placeholder="User#1234">
+			<input id="discord" type="text" pattern=".{2,32}[#]\d{4}" name="discord-user" placeholder="User#1234">
 			<label for="subject">Subject</label>
 			<input id="subject" type="text" name="message-subject" placeholder="Krabby Patty order" size="50" required>
 			<label for="message">Message</label>
