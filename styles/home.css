@@ -52,11 +52,12 @@ li .active {
 p {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 400; // regular
-	font-size: 3vw;
+	font-size: 4vw;
 	color: white;
 }
 
 h1 {
+        padding-top: 2em;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	font-size: 5vw;
