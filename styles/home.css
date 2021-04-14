@@ -12,7 +12,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 9vw;
+    height: 7vw;
     line-height: 5vw;
     z-index: 99999;
 }
@@ -37,7 +37,7 @@ li a {
   text-decoration: none;
   padding-left:20px;
   padding-right:20px;
-  font-size:4vw;
+  font-size:5vw;
   font-family: 'Roboto', sans-serif;
 }
 
