@@ -12,7 +12,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 7vw;
+    height: 5vw;
     line-height: 5vw;
     z-index: 99999;
 }
@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
