@@ -5,3 +5,4 @@ $(document).ready(function() {
         $('body ul').append('<li></li>','<a href="index.html" class="hover">News</a>')
         $('body ul').append('<li></li>','<a href="index.html" class="hover">Contact</a>')
 }
+ 
