@@ -1,7 +1,8 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 400;
-  background-color: rgb(9,8,8);
+	color: white;
+  background-color: rgb(30,30,30);
 	width: 75%;
 	margin:auto;
 }
