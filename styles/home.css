@@ -1,6 +1,6 @@
 body {
 	color: white;
-  background-color: rgb(20,20,20);
+  background-color: #f0f0f0;
 	width: 75%;
 	margin:auto;
 }
@@ -41,18 +41,18 @@ li a {
   font-family: 'Poppins', sans-serif;
 }
 
-p {
-  font-family: 'Noto Sans JP', sans-serif;
-	font-size:3vw;
-  color:white;
-}
-
 li .hover:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 li .active {
-	background-color:blue;
+	background-color: blue;
+}
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+	font-size:3vw;
+  color:white;
 }
 
 h1 {
@@ -60,4 +60,21 @@ h1 {
 	text-align: center;
 	font-size: 5vw;
   color:white;
+}
+
+.product {
+  display:block;
+}
+.product a {
+  margin:50px;
+  border:3px solid gray;
+  color:white;
+  font-size:3vw;
+  text-decoration:none;
+  font-family: 'Poppins', sans-serif;
+  padding-top:15px;
+}
+
+.product a:hover {
+  background: #111;
 }
