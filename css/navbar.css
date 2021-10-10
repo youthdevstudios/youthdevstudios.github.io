@@ -1,0 +1,93 @@
+/* navbar */
+
+nav {
+  position: relative;
+  right:0;
+  left:0;
+  line-height: 70px;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  background-color: #243E2C;
+  line-height: 70px;
+  z-index: 999;
+}
+
+.navbar a {
+  font-family: "Segoe UI";
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-text {
+  display:inline;
+  font-weight:625;
+}
+
+.nav-buttons {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar .nav-hover {
+  color: rgba(255,255,255,.5);
+}
+
+.navbar .nav-hover:hover {
+  color: rgba(255,255,255,.75);
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* small navbar */
+
+.nav-small-btn {
+  display: none;
+  margin-left: auto;
+}
+
+.nav-small-btn i:hover {
+  cursor: pointer;
+}
+
+.nav-small-drop {
+  display: none;
+  float: right;
+  flex-direction: column;
+  background-color: #243E2C;
+  transition: right 0.4s;
+}
+
+.nav-small-drop a {
+  line-height: 30px;
+  padding: 18px 20px;
+  text-align: center;
+  font-family: "Segoe UI";
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-small-drop a:hover {
+  color: rgba(255,255,255,.75);
+}
+
+.nav-small-show {
+  display: flex;
+}
+
+@media screen and (max-width: 765px) {
+  .nav-buttons {
+    display:none;
+  }
+  .nav-small-btn {
+    display: inline;
+  }
+}
