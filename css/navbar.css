@@ -10,7 +10,7 @@ nav {
 
 .navbar {
   display: flex;
-  background-color: #243E2C;
+  background-color: #5D388A;
   line-height: 70px;
   z-index: 999;
 }
@@ -21,6 +21,10 @@ nav {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 25px;
+}
+
+.navbar a:hover {
+  color: rgba(255,255,255,.75);
 }
 
 .nav-text {
@@ -83,11 +87,17 @@ nav {
   display: flex;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 600px) {
   .nav-buttons {
     display:none;
   }
   .nav-small-btn {
     display: inline;
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .nav-small-drop {
+    display: none;
   }
 }
