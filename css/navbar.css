@@ -10,9 +10,16 @@ nav {
 
 .navbar {
   display: flex;
-  background-color: #5D388A;
+  background-color: #522E62;
   line-height: 70px;
   z-index: 999;
+  align-items: center;
+}
+
+.navbar img {
+  width: 55px;
+  margin: 20px;
+  align-self: center;
 }
 
 .navbar a {
@@ -65,7 +72,7 @@ nav {
   display: none;
   float: right;
   flex-direction: column;
-  background-color: #243E2C;
+  background-color: #5D388A;
   transition: right 0.4s;
 }
 
