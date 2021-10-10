@@ -1,7 +1,0 @@
-## Error pages
-# 404 - Page not found
-ErrorDocument 404 /errors/404.html
-
-## Security
-Order deny,allow
-Deny from all
