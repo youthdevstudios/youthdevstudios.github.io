@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 /* navbar */
 
 nav {
@@ -23,7 +27,7 @@ nav {
 }
 
 .navbar a {
-  font-family: "Segoe UI";
+  font-family: "Poppins", sans-serif;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -108,4 +112,12 @@ nav {
   .nav-small-drop {
     display: none;
   }
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
 }
