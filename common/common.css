@@ -21,26 +21,31 @@ nav {
 }
 
 .navbar img {
-  width: 55px;
+  width: 45px;
   margin: 20px;
+  margin-right: 0px;
   align-self: center;
 }
 
 .navbar a {
   font-family: "Poppins", sans-serif;
   color: white;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
 }
 
 .navbar a:hover {
   color: rgba(255,255,255,.75);
 }
 
+.nav-buttons a {
+  font-size: 30px;
+  padding: 14px 16px;
+}
+
 .nav-text {
-  display:inline;
-  font-weight:625;
+  font-size: 50px;
+  font-weight:425;
+  padding: 6px;
 }
 
 .nav-buttons {
