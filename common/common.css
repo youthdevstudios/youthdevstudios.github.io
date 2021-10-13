@@ -35,6 +35,7 @@ nav {
 }
 
 .navbar a:hover {
+  transition: 0.3s ease;
   color: rgba(255,255,255,.75);
 }
 
@@ -47,14 +48,6 @@ nav {
   display: flex;
   margin-left: auto;
   margin-right: 1em;
-}
-
-.navbar .nav-hover {
-  color: rgba(255,255,255,.5);
-}
-
-.navbar .nav-hover:hover {
-  color: rgba(255,255,255,.75);
 }
 
 .navbar a.active {
@@ -101,7 +94,7 @@ nav {
 
 @media screen and (max-width: 600px) {
   .nav-buttons {
-    display:none;
+    display: none;
   }
   .nav-small-btn {
     display: inline;
@@ -117,7 +110,37 @@ nav {
 /* Footer */
 
 footer {
+  background-color: #121212;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 25px;
+  font-size: 15px;
+  color: #919191;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #919191;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
