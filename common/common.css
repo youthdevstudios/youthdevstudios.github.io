@@ -135,7 +135,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+ul li {
   float: left;
 }
 
