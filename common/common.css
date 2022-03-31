@@ -1,151 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 /* navbar */
 
 nav {
-  position: relative;
-  right:0;
-  left:0;
-  line-height: 70px;
-  z-index: 999;
+    position: fixed;
+    right: 0;
+    left: 0;
+    line-height: 70px;
+    z-index: 999;
 }
 
 .navbar {
-  display: flex;
-  background-color: #522E62;
-  line-height: 70px;
-  z-index: 999;
-  align-items: center;
+    display: flex;
+    background-color: #522E62;
+    line-height: 70px;
+    z-index: 999;
+    align-items: center;
 }
 
 .navbar img {
-  width: 45px;
-  margin: 20px;
-  margin-right: 0px;
-  align-self: center;
+    width: 45px;
+    margin: 20px;
+    margin-right: 0px;
+    align-self: center;
 }
 
 .navbar a {
-  font-family: "Poppins", sans-serif;
-  color: white;
-  text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-  transition: 0.3s ease;
-  color: rgba(255,255,255,.75);
+    transition: 0.3s ease;
+    color: rgba(255, 255, 255, .75);
 }
 
 .nav-buttons a {
-  font-size: 30px;
-  padding: 14px 16px;
+    font-size: 30px;
+    padding: 14px 16px;
 }
 
 .nav-text {
-  font-size: 50px;
-  font-weight:425;
-  padding: 6px;
+    font-size: 50px;
+    font-weight: 425;
+    padding: 6px;
 }
 
 .nav-buttons {
-  display: flex;
-  margin-left: auto;
-  margin-right: 1em;
+    display: flex;
+    margin-left: auto;
+    margin-right: 1em;
 }
 
 .navbar a.active {
-  background-color: #04AA6D;
-  color: white;
+    background-color: #04AA6D;
+    color: white;
 }
+
 
 /* small navbar */
 
 .nav-small-btn {
-  display: none;
-  margin-left: auto;
+    display: none;
+    margin-left: auto;
 }
 
 .nav-small-btn i:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .nav-small-drop {
-  display: none;
-  float: right;
-  flex-direction: column;
-  background-color: #5D388A;
-  transition: right 0.4s;
+    display: none;
+    float: right;
+    flex-direction: column;
+    background-color: #5D388A;
+    transition: right 0.4s;
 }
 
 .nav-small-drop a {
-  line-height: 30px;
-  padding: 18px 20px;
-  text-align: center;
-  font-family: "Segoe UI";
-  color: rgba(255,255,255,.5);
-  text-decoration: none;
-  font-size: 30px;
+    line-height: 30px;
+    padding: 18px 20px;
+    text-align: center;
+    font-family: "Segoe UI";
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .nav-small-drop a:hover {
-  color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
 }
 
 .nav-small-show {
-  display: flex;
+    display: flex;
 }
 
 @media screen and (max-width: 600px) {
-  .nav-buttons {
-    display: none;
-  }
-  .nav-small-btn {
-    display: inline;
-  }
+    .nav-buttons {
+        display: none;
+    }
+    .nav-small-btn {
+        display: inline;
+    }
 }
 
 @media screen and (min-width: 765px) {
-  .nav-small-drop {
-    display: none;
-  }
+    .nav-small-drop {
+        display: none;
+    }
 }
+
 
 /* Footer */
 
 footer {
-  background-color: #121212;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  color: #919191;
-  width: 100%;
+    background-color: #121212;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: #919191;
+    width: 100%;
 }
 
 footer a {
-  text-decoration: none;
-  color: #919191;
+    text-decoration: none;
+    color: #919191;
 }
 
 ul {
-  display: inline-block;
-  list-style-type: none;
+    display: inline-block;
+    list-style-type: none;
 }
 
 ul li {
-  float: left;
+    float: left;
 }
 
 li a {
-  color: white;
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }

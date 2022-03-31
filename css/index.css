@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
 body {
-  background-color: #212121;
-  color: white;
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+    background-color: #212121;
+    color: white;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    margin: auto;
 }
 
 .presentation-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .presentation-right {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .presentation-text {
- padding: 20px;
+    padding: 20px;
 }
 
 .presentation-text p {
-  font-size: 40px;
-  float: right;
+    font-size: 40px;
+    float: right;
 }
 
 .presentation-text h2 {
-  text-align: center;
-  font-size: 60px;
+    text-align: center;
+    font-size: 60px;
 }
 
 .presentation-div img {
-  width: 500px;
+    width: 500px;
 }
