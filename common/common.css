@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 /* navbar */
 
@@ -13,7 +20,7 @@ nav {
 
 .navbar {
     display: flex;
-    background-color: #522E62;
+    background-color: #303030;
     line-height: 70px;
     z-index: 999;
     align-items: center;
