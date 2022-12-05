@@ -38,3 +38,8 @@ p,h1,h2,h3,h4,h5,h6,a {
     border-width: 5px;
     border-color: rgb(40, 40, 130);
 }
+
+.footer {
+    background-color: rgb(34, 37, 41);
+    margin: 20px;
+}
