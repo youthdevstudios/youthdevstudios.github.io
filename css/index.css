@@ -1,3 +1,7 @@
 .title, .subtitle {
     margin: 20px;
 }
+
+.carousel-item img {
+    height: 400px;
+}
