@@ -51,3 +51,11 @@ footer {
     margin: 20px;
     margin-top:auto;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
