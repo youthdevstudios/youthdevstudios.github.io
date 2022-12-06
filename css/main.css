@@ -1,10 +1,19 @@
 body {
-    color: rgb(232, 235, 224) !important;
     background-color: rgb(62, 57, 57);
     text-align: center;
+    margin: 0;
+    min-height: 100% !important;
+    display: flex;
+    flex-direction: column;
 }
 
-/* navbar */
+html {
+    height: 100%;
+}
+
+p,h1,h2,h3,h4,h5,h6,a {
+    color: rgb(232, 235, 224) !important;
+}
 
 .navbar {
     align-items: center !important;
@@ -25,8 +34,6 @@ body {
     padding: 14px;
 }
 
-/* buttons */
-
 .btn {
     font-size: 1.5rem;
     background-color: rgb(40, 40, 130);
@@ -40,17 +47,7 @@ body {
     border-color: rgb(40, 40, 130);
 }
 
-/* footer */
-
 footer {
-    background-color: rgb(34, 37, 41);
     margin: 20px;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    margin-top:auto;
 }
