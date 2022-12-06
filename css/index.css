@@ -1,3 +1,9 @@
 .title, .subtitle {
     margin: 20px;
 }
+
+.slide-text {
+    background-color: black;
+    opacity: 0.5;
+    overflow-wrap: break-word;
+}

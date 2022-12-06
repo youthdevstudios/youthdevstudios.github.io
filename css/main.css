@@ -1,11 +1,10 @@
 body {
+    color: rgb(232, 235, 224) !important;
     background-color: rgb(62, 57, 57);
     text-align: center;
 }
 
-p,h1,h2,h3,h4,h5,h6,a {
-    color: rgb(232, 235, 224) !important;
-}
+/* navbar */
 
 .navbar {
     align-items: center !important;
@@ -26,6 +25,8 @@ p,h1,h2,h3,h4,h5,h6,a {
     padding: 14px;
 }
 
+/* buttons */
+
 .btn {
     font-size: 1.5rem;
     background-color: rgb(40, 40, 130);
@@ -39,7 +40,17 @@ p,h1,h2,h3,h4,h5,h6,a {
     border-color: rgb(40, 40, 130);
 }
 
-.footer {
+/* footer */
+
+footer {
     background-color: rgb(34, 37, 41);
     margin: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
