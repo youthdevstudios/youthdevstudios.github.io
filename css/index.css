@@ -5,31 +5,3 @@
 .carousel-item img {
     height: 400px;
 }
-
-.presentation-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.presentation-right {
-    flex-direction: row-reverse;
-}
-
-.presentation-text {
-    padding: 20px;
-}
-
-.presentation-text p {
-    font-size: 40px;
-    float: right;
-}
-
-.presentation-text h2 {
-    text-align: center;
-    font-size: 60px;
-}
-
-.presentation-div img {
-    width: 500px;
-}
