@@ -2,6 +2,10 @@
     margin: 20px;
 }
 
+#carouselExampleIndicators {
+    padding: 40px;
+}
+
 .carousel-item img {
     height: 400px;
 }

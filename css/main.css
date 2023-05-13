@@ -41,13 +41,13 @@ p,h1,h2,h3,h4,h5,h6,a {
 .btn {
     font-size: 1.5rem;
     background-color: rgb(40, 40, 130);
-    border-width: 5px;
+    border-width: 3px;
     border-color: rgb(40, 40, 130);
 
 }
 .btn:hover {
     background-color: rgb(32, 32, 107);
-    border-width: 5px;
+    border-width: 3px;
     border-color: rgb(40, 40, 130);
 }
 

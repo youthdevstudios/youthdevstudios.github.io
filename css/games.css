@@ -10,10 +10,26 @@
     margin: 10px;
     display: flex;
     min-width: 300px;
+    transition-property: min-width, height;
+    transition-duration: 1s;
+}
+
+.card-img-top {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    min-width: 310px;
 }
 
 .card-body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.card-anchor {
+    text-decoration: none;
 }
